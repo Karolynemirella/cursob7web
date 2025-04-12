@@ -323,6 +323,10 @@ footer div a:hover{
     .area3 {
         grid-template-columns: 3fr 2fr;
     }
+
+    .area4 {
+        grid-template-columns: 2fr 2fr;
+    }
 }
 
 
@@ -360,8 +364,18 @@ footer div a:hover{
 
     .area1,
     .area2,
-    .area3  {
+    .area3,
+    .area4  {
         grid-template-columns: 1fr;
+    }
+
+    .area4 {
+        font-size: 14px;
+    }
+
+    .area4--img1 {
+        background-position: center;
+        
     }
 
     .area1--content,
